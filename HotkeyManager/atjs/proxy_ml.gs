@@ -32,7 +32,7 @@ var COMMONDOMAIN = '';
 // This is the javascript that is injected into the awesometable upon load, and loads up the external javascript files
 var JS = '!function(){["%s"].forEach(function(e,s,a){var t=void 0;e.endsWith(".js")?(t=document.createElement("script"),t.src=e,t.async=!1):e.endsWith(".css")&&(t=document.createElement("link"),t.rel="stylesheet",t.href=e),s===a.length-1&&(t.onload=function(){atjs.start(%s)}),document.head.appendChild(t)})}();';
 var AUTOLOADLIBS = ["https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
-                    "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js",
+                    "https://github.com/MaxLaska/HotkeyManager/blob/master/HotkeyManager/content/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js",
                     "https://github.com/MaxLaska/HotkeyManager/blob/master/HotkeyManager/content/jquery-observe/jquery-observe.js",                                        
                     "https://github.com/MaxLaska/HotkeyManager/blob/master/HotkeyManager/atjs/atjs.js"
                    ];
